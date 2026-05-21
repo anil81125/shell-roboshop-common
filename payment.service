@@ -6,11 +6,11 @@ Description=Payment Service
 User=root
 WorkingDirectory=/app
 // highlight-start
-Environment=CART_HOST=cart.linakalinga.store
+Environment=CART_HOST=cart.linakalinga.space
 Environment=CART_PORT=8080
-Environment=USER_HOST=user.linakalinga.store
+Environment=USER_HOST=user.linakalinga.space
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq.linakalinga.store
+Environment=AMQP_HOST=rabbitmq.linakalinga.space
 // highlight-end
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
